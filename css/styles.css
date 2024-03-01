@@ -44,10 +44,25 @@
 }*/
 
 .container {
-    max-width: 375px;
+    min-width: 375px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        min-width: 768px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-pictures {
+        background-color: #7A3145;
+        padding: 100px 64px;
+    }
 }
 
 .visually-hidden {
